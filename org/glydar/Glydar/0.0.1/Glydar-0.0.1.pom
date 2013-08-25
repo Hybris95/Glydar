@@ -31,6 +31,7 @@
               <artifactSet>
                 <includes>
                   <include>org.glydar.paraglydar:ParaGlydar</include>
+                  <include>io.netty:netty-all</include>
                   <include>com.google.guava:guava</include>
                   <include>commons-lang:commons-lang</include>
                   <include>org.yaml:snakeyaml</include>
@@ -111,12 +112,6 @@
     </repository>
   </repositories>
   <dependencies>
-    <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-all</artifactId>
-      <version>4.0.0.CR9</version>
-      <scope>compile</scope>
-    </dependency>
     <dependency>
       <groupId>org.reflections</groupId>
       <artifactId>reflections</artifactId>
